@@ -14,6 +14,8 @@ namespace RandomNumber
     public class UserScore
     {
         public IRandomNumber randomNum;
+
+
         public UserScore(IRandomNumber randumNum)
         {
             this.randomNum = randumNum;
